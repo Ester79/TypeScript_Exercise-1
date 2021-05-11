@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio Cars Nivel 1</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <div class="resultado">
+        <div class="desc">
+            <h4>Car Description:</h4>
+            <p id="carInfo"></p>
+        </div>
+
+    </div>
+
+
+    <div class="caja">
+        <form class="coche" id="form1">
+            <div class="field">
+                <label>Plate</label>
+                <input type="text" id="plate">
+            </div>
+            <div class="field">
+                <label>Brand</label>
+                <input type="text" id="brand">
+            </div>
+            <div class="field">
+                <label>Color</label>
+                <input type="text" id="color">
+            </div>
+            <button type="button" onclick="createCar()">Create car</button>
+        </form>
+    </div>
+
+
+    <div class="caja2">
+        <form class="ruedas" id="form2">
+            <div class="field2">
+                <div class="subfield2">
+                    <div class="numroda">
+                        <h4>WHEEL 1</h4>
+                    </div>
+                    <label>Brand</label>
+                    <input type="text" id="marca1">
+                    <label>Diameter</label>
+                    <input type="text" id="dim1">
+                </div>
+                <div class="subfield2">
+                    <div class="numroda">
+                        <h4>WHEEL 2</h4>
+                    </div>
+                    <label>Brand</label>
+                    <input type="text" id="marca2">
+                    <label>Diameter</label>
+                    <input type="text" id="dim2">
+                </div>
+                 <div class="subfield2">
+                    <div class="numroda">
+                        <h4>WHEEL 3</h4>
+                    </div>
+                     <label>Brand</label>
+                     <input type="text" id="marca3">
+                     <label>Diameter</label>
+                      <input type="text" id="dim3">
+                </div>
+                 <div class="subfield2">
+                    <div class="numroda">
+                        <h4>WHEEL 4</h4>
+                    </div>
+                     <label>Brand</label>
+                     <input type="text" id="marca4">
+                     <label>Diameter</label>
+                     <input type="text" id="dim4">
+                </div>
+
+            </div>
+
+            <button type="button" onclick="addWheels()">Add Wheels</button>
+        </form>
+    </div>
+
+</body>
+
+
+<script src="../models/car.js"></script>
+<script src="../models/wheel.js"></script>
+<script src="../controllers/controller.js"></script>
+
+</html>
