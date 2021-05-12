@@ -228,13 +228,6 @@ function vaciarform2() {
     }
 
 
-    // VERIFICAR MARCA DE LAS RUEDAS
-    function marcas(){
-    for(let i =1; i<=4; i++){
-        let marca = <HTMLElement>document.getElementById("marca"+i);
-    }
-    }
-
 
     function marcaRueda1() {
         let marcarueda = document.getElementById("marca1") as HTMLInputElement;

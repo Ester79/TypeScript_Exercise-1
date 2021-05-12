@@ -197,12 +197,6 @@ function medidarueda4() {
         }
     }
 }
-// VERIFICAR MARCA DE LAS RUEDAS
-function marcas() {
-    for (var i = 1; i <= 4; i++) {
-        var marca_1 = document.getElementById("marca" + i);
-    }
-}
 function marcaRueda1() {
     var marcarueda = document.getElementById("marca1");
     var errorbrand = document.getElementById("m1"); // variable donde guardar el mensaje de error
